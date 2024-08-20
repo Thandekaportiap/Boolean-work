@@ -5,11 +5,11 @@
 ## Run Locally
 Clone the project
 ```bash
-  git clone https://github.com/Amniei/Shopping-List.git
+  https://github.com/Thandekaportiap/Boolean-work.git
 ```
 Go to the project directory
 ```bash
-  cd Shopping-List
+  cd Boolean-work
 ```
 Install dependencies
 ```bash
@@ -17,7 +17,7 @@ Install dependencies
 ```
 Start the react server
 ```bash
-  npm run start
+  npm run dev
 ```
 ## Tech Stack
 **Client:** React JS, HTML5, JavaScript, CSS3
