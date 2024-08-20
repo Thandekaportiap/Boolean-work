@@ -5,7 +5,7 @@
 ## Run Locally
 Clone the project
 ```bash
-  https://github.com/Thandekaportiap/Boolean-work.git
+ git clone https://github.com/Thandekaportiap/Boolean-work.git
 ```
 Go to the project directory
 ```bash
