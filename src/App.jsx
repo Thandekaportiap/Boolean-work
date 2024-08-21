@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import NoPage from './pages/noPage'
 import TrafficLight from './pages/trafficLight'
 import Exercises from './pages/exercises';
+import Contact from './pages/contact';
 
 
 
@@ -18,6 +19,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="trafficlight" element={<TrafficLight />} />
           <Route path="exercises" element={<Exercises />} />
+          <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

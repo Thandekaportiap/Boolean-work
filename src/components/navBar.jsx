@@ -8,7 +8,7 @@ export default function navBar() {
   <Link to={"/"} className="w3-bar-item w3-button">Home</Link>
   <Link to={'./trafficlight'} className="w3-bar-item w3-button">Trafficlight</Link>
   <Link to={'./exercises'} className="w3-bar-item w3-button">Exercise</Link>
-  {/* <Link to={} className="w3-bar-item w3-button">Link 3</Link> */}
+  <Link to={'./contact'} className="w3-bar-item w3-button">Contact-Me</Link>
 </div>
     </>
   )
