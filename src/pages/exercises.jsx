@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from '../components/card'
 import Card2 from '../components/card2'
+import Card3 from '../components/card3'
 
 export default function Exercises() {
   let card = [{
@@ -21,11 +22,14 @@ export default function Exercises() {
       <div style={{position:"absolute", top:"30%", left:"40%"}}><h1 style={{fontWeight:"bold", fontSize:"800"}}>Exercises</h1></div>
     </div>
     <div style={{display:"flex",justifyContent:"center", alignItems:"center"}}>
-<div className="w3-card-4"  style={{width:"40%", marginTop:"3%", marginLeft:"2%", background:"lightgrey",}}>
+<div className="w3-card-4"  style={{width:"35%", marginTop:"3%", marginLeft:"2%", background:"lightgrey",}}>
 <Card card={card[0]}/>
 </div>
-<div className="w3-card-4"  style={{width:"40%",height:"270px", marginTop:"3%", marginLeft:"5%", background:"lightgrey",}}>
+<div className="w3-card-4"  style={{width:"35%",height:"270px", marginTop:"3%", marginLeft:"5%", background:"lightgrey",}}>
 <Card2 card={card[1]}/>
+</div>
+<div className="w3-card-4"  style={{width:"35%",height:"270px", marginTop:"3%", marginLeft:"5%", background:"lightgrey",}}>
+<Card3 card={card[1]}/>
 </div>
 </div>
 </>
