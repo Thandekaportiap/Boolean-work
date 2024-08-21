@@ -11,7 +11,7 @@ export default function Footer() {
         width:"100%",
         color:"white"
     }}>
-        <p>This is my footer</p>
+        <p>footer</p>
       </div>
    </>
   )
