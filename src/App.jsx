@@ -8,6 +8,8 @@ import TrafficLight from './pages/trafficLight'
 import Exercises from './pages/exercises';
 import Contact from './pages/contact';
 import Landing from './pages/landing';
+import Movie from './pages/movie';
+import Movies from './assets/movies';
 
 
 
@@ -22,6 +24,8 @@ export default function App() {
           <Route path="trafficlight" element={<TrafficLight />} />
           <Route path="exercises" element={<Exercises />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="movie" element={<Movie mData={Movies}/>} />
+          
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 import { useForm, ValidationError } from '@formspree/react';
 
 const contact = () => {
@@ -9,6 +10,10 @@ const contact = () => {
     }
   return (
     <>
+     <div style={{backgroundImage: `url(${require("../assets/Contact.jpg")})`,backgroundRepeat:"no-repeat", backgroundSize:"cover", width:"100%",height:"300px"}}>
+      
+      <div style={{position:"absolute", top:"30%", left:"40%"}}><h1 style={{fontWeight:"bold", fontSize:"800"}}>Contact-Me</h1></div>
+    </div>
     <div style={{display:"flex",
         justifyContent:"center",
         alignItems:"center"
