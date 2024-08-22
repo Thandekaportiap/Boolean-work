@@ -10,6 +10,7 @@ import Contact from './pages/contact';
 import Landing from './pages/landing';
 import Movie from './pages/movie';
 import Movies from './assets/movies';
+import MoviesPage from './pages/moviesPage';
 
 
 
@@ -25,7 +26,7 @@ export default function App() {
           <Route path="exercises" element={<Exercises />} />
           <Route path="contact" element={<Contact />} />
           <Route path="movie" element={<Movie mData={Movies}/>} />
-          
+          <Route path="moviesPage" element={<MoviesPage />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
