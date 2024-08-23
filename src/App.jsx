@@ -25,8 +25,11 @@ export default function App() {
           <Route path="trafficlight" element={<TrafficLight />} />
           <Route path="exercises" element={<Exercises />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="movie" element={<Movie mData={Movies}/>} />
-          <Route path="moviesPage" element={<MoviesPage />} />
+          <Route path="movie"  >
+            <Route index element={<Movie mData={Movies}/>}/>
+            <Route path=":id" element={<MoviesPage data={Movies} />}/>
+          </Route>
+          
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

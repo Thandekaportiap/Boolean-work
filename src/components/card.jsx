@@ -35,11 +35,11 @@ const card = ({card}) => {
   Num2
     <input type="text" value={num2} onChange={handleNum2Change} />
   
-  <button onClick={findBiggestNumber} >{card.button}</button>
+  <button style={{margin:"4% 0"}} onClick={findBiggestNumber} >{card.button}</button>
 </div>
 
 <footer className="w3-container" style={{background:"lightblue", }}>
-  <h5>Output: The {card.out} number<br/> is {biggestNumber}</h5>
+  <h5>Output: The {card.out} number is {biggestNumber}</h5>
 </footer>
     </div>
   )

@@ -21,7 +21,11 @@ const contact = () => {
      <form onSubmit={handleSubmit} style={{display:"flex",
         flexDirection:"column",
         width:"40%",
-        padding:"26px"
+        padding:"26px",
+        border:"1px solid grey",
+        margin:"3% 0",
+        backgroundColor:"#E0B0FF",
+        borderRadius:"8px"
      }}>
       <label htmlFor="email">
         Email Address
@@ -45,7 +49,7 @@ const contact = () => {
         field="message"
         errors={state.errors}
       />
-      <button type="submit" disabled={state.submitting}>
+      <button style={{margin:"1% 0",backgroundColor:"#7851A9", color:"white"}} type="submit" disabled={state.submitting}>
         Submit
       </button>
     </form>

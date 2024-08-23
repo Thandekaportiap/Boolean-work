@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 
 const movieData = ({mData}) => {
@@ -23,7 +24,7 @@ const movieData = ({mData}) => {
          <span  style={{fontSize:"30px"}}>Year: {mData.year}</span>
          <p>{mData.description}</p>
             <p>Rating:<span style={{fontWeight:"bold",fontSize:"20px" }}>{mData.rating}</span></p>
-            <button style={{backgroundColor:"#00FFFF"}}>Read More</button>
+            <Link to={`${mData.id}`}><button style={{backgroundColor:"#00FFFF"}}>Read More</button></Link>
             
 
       </div>

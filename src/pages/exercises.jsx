@@ -22,7 +22,7 @@ export default function Exercises() {
       <div style={{position:"absolute", top:"30%", left:"40%"}}><h1 style={{fontWeight:"bold", fontSize:"800"}}>Exercises</h1></div>
     </div>
     <div style={{display:"flex",justifyContent:"center", alignItems:"center"}}>
-<div className="w3-card-4"  style={{width:"35%", marginTop:"3%", marginLeft:"2%", background:"lightgrey",}}>
+<div className="w3-card-4"  style={{width:"35%",height:"270px", marginTop:"3%", marginLeft:"2%", background:"lightgrey",}}>
 <Card card={card[0]}/>
 </div>
 <div className="w3-card-4"  style={{width:"35%",height:"270px", marginTop:"3%", marginLeft:"5%", background:"lightgrey",}}>
