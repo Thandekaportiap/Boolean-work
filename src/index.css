@@ -8,3 +8,33 @@ button {
     background-color: blanchedalmond;
     border-radius: 4px;
 }
+.traffic-light {
+    width: 100px;
+    height: 300px;
+    background-color: #333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .light {
+    width: 80%;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #555;
+    transition: background-color 0.5s;
+  }
+  
+  .light.active {
+    background-color: red;
+  }
+  
+  .light.yellow.active {
+    background-color: yellow;
+  }
+  
+  .light.green.active {
+    background-color: green;
+  }
